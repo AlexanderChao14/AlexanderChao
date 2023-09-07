@@ -1,0 +1,44 @@
+{
+  "name": "alexanderchao14.github.io",
+  "description": "Alexander Chao's website",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderChao14/AlexanderChao14.github.io.git"
+  },
+  "keywords": [],
+  "author": "Alexander Chao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexanderChao14/AlexanderChao14.github.io/issues"
+  },
+  "homepage": "https://github.com/AlexanderChao14/AlexanderChao14.github.io#readme",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "start": "next start",
+    "prettier": "prettier -write .",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.0",
+    "@chakra-ui/next-js": "^2.1.5",
+    "@chakra-ui/react": "^2.8.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "framer-motion": "^10.16.4",
+    "next": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.48.0",
+    "eslint-config-next": "^13.4.19",
+    "prettier": "^3.0.3"
+  }
+}

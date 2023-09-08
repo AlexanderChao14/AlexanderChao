@@ -1,9 +1,10 @@
-import Head from 'next/head';
 import { Container,Box, Heading, Image, useColorModeValue} from '@chakra-ui/react';
+import Section from '../components/section'
+import ParagraphBlock from '../components/paragraph_block';
 
 const Index = () => {
   return(
-    <Container maxW="40%">
+    <Container maxW="container.lg">
 
       <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.900', "gray.600")} p={3} mb={6} align="center">
         Hello there, my name is Alexander Chao and I am a software developer from Canada!
@@ -24,6 +25,14 @@ const Index = () => {
             src="TempProfilePic.jpg"/>
         </Box>  
       </Box>
+      <Section delay={0.1}>
+        <Heading as ="h3" variant="section-title">
+          Test
+        </Heading>
+        <ParagraphBlock>
+          Here are test words
+        </ParagraphBlock>
+      </Section>
     </Container>
   )
 }

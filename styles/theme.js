@@ -28,6 +28,11 @@ const components = {
       color: mode('#3d7aed', '#ff63c3')(props),
       textUnderlineOffset: 3
     })
+  },
+  Container: {
+    baseStyle: {
+      maxW: "container.lg",
+    },
   }
 }
 

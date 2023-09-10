@@ -22,7 +22,7 @@ const LinkItem = ({href, path, childern}) =>{
     const inactiveColor = useColorModeValue('gray.800', 'whiteAlpha.900')
     return(
         
-            <Link p={2} bg={active ? 'grassTeal': undefined} color={active? "#202023" : inactiveColor} >
+            <Link href={href} p={2} bg={active ? 'grassTeal': undefined} color={active? "#202023" : inactiveColor} >
                 {childern}
             </Link>
         
@@ -38,12 +38,11 @@ const Navbar = props => {
             position="fixed"
             as="nav"
             w="100%"
-            // maxW="40%"
             bg={useColorModeValue('#ffffff40', '#20202380')}
             css={{ backdropFilter: 'blur(10px)' }}
             zIndex={2}
             {...props}>
-            <Container display="flex" p={2} maxW="container.lg" wrap="wrap" align="center" justify="space-between">
+            <Container display="flex" p={2} wrap="wrap" align="center" justify="space-between">
                 <Flex align="center" mr={5}>
                     <Heading as="h1" size="lg" letterSpacing={'tighter'}>
                         add logo

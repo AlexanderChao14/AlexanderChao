@@ -15,7 +15,7 @@ const Index = () => {
         <Box display={{md:'flex'}}>
           <Box flexGrow={1}>
             <Heading as="h2" variant="page-title">Alexander Chao</Heading>
-            <p>Developer / Martial Artist / Geek and Video Game Enjoyer</p>
+            <p>Developer / Martial Artist / Video Game Enthusiast</p>
           </Box>
           <Box flexShrink={0} mt={{base:4,md:0}} ml={{md:6}} algin="center">
             <Image borderColor="whiteAlpha.800" 

@@ -52,7 +52,7 @@ const Navbar = props => {
                 <Stack direction={{base: 'column', md: 'row'}} display={{base: 'none', md:'flex'}} width={{base:'full', md: 'auto'}} alignItems="center" flexGrow={1} mt={{base: 4, md: 0}} >
                     <LinkItem href="/works" path={path} childern="Works" >Works</LinkItem> {/*TODO: Might need to change/ remove the childern part */}
                     <LinkItem href="/resume" path={path} childern="Resume">Resume</LinkItem>
-                    <LinkItem href="/contact" path={path} childern="Resume">Contact</LinkItem>
+                    <LinkItem href="/contact" path={path} childern="Contact">Contact</LinkItem>
                 </Stack>
                 <Box flex={1} align="right" >
                     <ThemeToggleButton/>

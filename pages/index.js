@@ -37,9 +37,9 @@ const Index = () => {
           </ParagraphBlock>
 
           <Box algin="center" my="4">
-            <NextLink href="/works">
+            <NextLink href="/projects">
             <Button rightIcon={<ChevronRightIcon/>} colorScheme='teal'>
-              My works
+              My projects
             </Button>
             </NextLink>
           </Box>

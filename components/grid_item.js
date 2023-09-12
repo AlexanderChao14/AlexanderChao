@@ -14,11 +14,11 @@ export const GridItems = ({childern, href, title, thumbnail}) => (
     </Box>
 )
 
-export const WorkGridItem = ({childern, id, title, thumbnail}) =>(
+export const ProjectsGridItem = ({childern, id, title, thumbnail}) =>(
     <Box w="100%" align="center">
-            <LinkBox cursor="pointer" href={`/works/${id}`}>
+            <LinkBox cursor="pointer" href={`/projects/${id}`}>
                 <Image src={thumbnail} alt={title} className="grid_item_thumbnail" placeholder='blur'/>
-                <LinkOverlay href={`/works/${id}`}>
+                <LinkOverlay href={`/projects/${id}`}>
                     <Text mt={2} fontSize={20}>{title}</Text>
                 </LinkOverlay>
                 <Text fontSize={14}>{childern}</Text>

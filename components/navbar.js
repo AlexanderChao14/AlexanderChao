@@ -50,7 +50,7 @@ const Navbar = props => {
                 </Flex>
 
                 <Stack direction={{base: 'column', md: 'row'}} display={{base: 'none', md:'flex'}} width={{base:'full', md: 'auto'}} alignItems="center" flexGrow={1} mt={{base: 4, md: 0}} >
-                    <LinkItem href="/works" path={path} childern="Works" >Works</LinkItem> {/*TODO: Might need to change/ remove the childern part */}
+                    <LinkItem href="/projects" path={path} childern="Projects" >Projects</LinkItem> {/*TODO: Might need to change/ remove the childern part */}
                     <LinkItem href="/resume" path={path} childern="Resume">Resume</LinkItem>
                     <LinkItem href="/contact" path={path} childern="Contact">Contact</LinkItem>
                 </Stack>
@@ -61,7 +61,7 @@ const Navbar = props => {
                             <MenuButton as={IconButton} icon={<HamburgerIcon/>} variant="outline" aria-label='Options'/>
                             <MenuList>                        
                                 <MenuItem as={Link}>About</MenuItem>                       
-                                <MenuItem as={Link}>Works</MenuItem>
+                                <MenuItem as={Link}>Projects</MenuItem>
                                 <MenuItem as={Link}>Resume</MenuItem>
                                 <MenuItem as={Link}>Contact</MenuItem>                
                             </MenuList>

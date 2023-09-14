@@ -30,10 +30,13 @@ const Index = () => {
         </Box>
         <Section delay={0.1}>
           <Heading as ="h3" variant="section-title">
-            Test
+            About Me
           </Heading>
           <ParagraphBlock>
-            Here are test words
+            I'm a Computer Science graduate from the University of Calgary. I enjoy working in front-end development and 
+            web development, but I am open to working in new areas of Computer Science as I am eager to alway learn new skills. 
+            Back-end development and machince learning are just a few area of interests that I am open to explore. {/*Might take out this line or 3rd sentence  */}
+            Some of the hobbies that I enjoy during my past time
           </ParagraphBlock>
 
           <Box algin="center" my="4">

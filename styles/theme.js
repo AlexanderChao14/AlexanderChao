@@ -31,7 +31,7 @@ const components = {
   },
   Container: {
     baseStyle: {
-      maxW: "container.lg",
+      maxW: "container.md",
     },
   }
 }

@@ -5,12 +5,15 @@ import { ChevronRightIcon } from '@chakra-ui/icons';
 import Layout from '../components/layouts/article';
 import NextLink from 'next/link'
 
+import japan1 from '../public/images/home/JapanTripOnePiece.jpg'
+// import japan2 from '../public/TempProfilePic.jpg'
+
 const Index = () => {
   return(
     <Layout>
       <Container>
         <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.900', "gray.600")} p={3} mb={6} align="center">
-          Hello there, my name is Alexander Chao and I am a software developer from Canada!
+          Hello there, my name is Alexander Chao and I am a software developer in Canada!
         </Box>
         <Box display={{md:'flex'}}>
           <Box flexGrow={1}>
@@ -35,14 +38,12 @@ const Index = () => {
           <ParagraphBlock>
             I'm a Computer Science graduate from the University of Calgary. I enjoy working in front-end development and 
             web development, but I am open to working in new areas of Computer Science as I am eager to alway learn new skills. 
-            Back-end development and machince learning are just a few area of interests that I am open to explore.{/*Might take out this line or 3rd sentence  */}
-            
-          </ParagraphBlock>  
-          <Box pt={8}></Box>
-          <ParagraphBlock>
+            Back-end development and machince learning are just a few area of interests that I am open to explore. {/*Might take out this line or 3rd sentence  */}
             Some of the hobbies that I enjoy during my past time outside of software development are playing video games, learning martial arts, working outing at the gym, fishing and traveling the world.  
           </ParagraphBlock>
-
+          <Box>
+            <Image src="images/home/JapanTripOnePiece.jpg" alt="Japan Pic 1" placeholder='blur' loading='lazy' borderRadius="3xl" maxW="35%" maxH="35%" pt={3} pb={3} mt={6}/>
+          </Box>
           <Box algin="center" my="4">
             <NextLink href="/projects">
             <Button rightIcon={<ChevronRightIcon/>} colorScheme='teal'>

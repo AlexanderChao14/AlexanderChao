@@ -15,6 +15,7 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './darkmode_toggle_button'
+import Logo from '../components/logo';
 
 
 const LinkItem = ({href, path, childern}) =>{
@@ -44,8 +45,8 @@ const Navbar = props => {
             {...props}>
             <Container display="flex" p={2} wrap="wrap" align="center" justify="space-between">
                 <Flex align="center" mr={5}>
-                    <Heading as="h1" size="lg" letterSpacing={'tighter'}>
-                        add logo
+                    <Heading as="h1" size="lg" letterSpacing='tight'>
+                        <Logo/>
                     </Heading>
                 </Flex>
 

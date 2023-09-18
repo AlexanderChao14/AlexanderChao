@@ -5,9 +5,6 @@ import { ChevronRightIcon } from '@chakra-ui/icons';
 import Layout from '../components/layouts/article';
 import NextLink from 'next/link'
 
-import japan1 from '../public/images/home/JapanTripOnePiece.jpg'
-// import japan2 from '../public/TempProfilePic.jpg'
-
 const Index = () => {
   return(
     <Layout>
@@ -21,7 +18,8 @@ const Index = () => {
             <p>Developer / Martial Artist / Video Game Enthusiast</p>
           </Box>
           <Box flexShrink={0} mt={{base:4,md:0}} ml={{md:6}} algin="center">
-            <Image borderColor="whiteAlpha.800" 
+            <Image 
+              borderColor={useColorModeValue( "whiteAlpha.800", "#525252")} 
               borderWidth={2} 
               borderStyle="solid" 
               maxW="100px" 

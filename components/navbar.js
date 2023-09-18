@@ -1,4 +1,3 @@
-import NextLink from 'next/link'
 import { 
     Container,
     Box,
@@ -11,11 +10,14 @@ import {
     MenuList,
     MenuButton,
     useColorModeValue,
-    IconButton
+    IconButton,
+    Text
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './darkmode_toggle_button'
 import Logo from '../components/logo';
+import { BsLinkedin, BsGithub } from 'react-icons/bs'
+
 
 
 const LinkItem = ({href, path, childern}) =>{
@@ -23,7 +25,7 @@ const LinkItem = ({href, path, childern}) =>{
     const inactiveColor = useColorModeValue('gray.800', 'whiteAlpha.900')
     return(
         
-            <Link href={href} p={2} bg={active ? 'grassTeal': undefined} color={active? "#202023" : inactiveColor} >
+            <Link href={href} p={2} bg={active ? 'grassTeal': undefined} color={active? "#202023" : inactiveColor}>
                 {childern}
             </Link>
         
@@ -54,6 +56,12 @@ const Navbar = props => {
                     <LinkItem href="/projects" path={path} childern="Projects" >Projects</LinkItem> {/*TODO: Might need to change/ remove the childern part */}
                     <LinkItem href="/resume" path={path} childern="Resume">Resume</LinkItem>
                     <LinkItem href="/contact" path={path} childern="Contact">Contact</LinkItem>
+                    <LinkItem href="https://github.com/AlexanderChao14" path={path}  display="inline-flex" alignItems="center" childern={<BsGithub/>}s>
+                        <BsGithub/>
+                    </LinkItem>
+                    <LinkItem href="https://linkedin.com/in/AlexanderChao14" path={path} display="inline-flex" alignItems="center" childern={<BsLinkedin/>}>
+                        <BsLinkedin/>
+                    </LinkItem>
                 </Stack>
                 <Box flex={1} align="right" >
                     <ThemeToggleButton/>
@@ -61,10 +69,22 @@ const Navbar = props => {
                         <Menu>
                             <MenuButton as={IconButton} icon={<HamburgerIcon/>} variant="outline" aria-label='Options'/>
                             <MenuList>                        
-                                <MenuItem as={Link}>About</MenuItem>                       
-                                <MenuItem as={Link}>Projects</MenuItem>
-                                <MenuItem as={Link}>Resume</MenuItem>
-                                <MenuItem as={Link}>Contact</MenuItem>                
+                                <MenuItem as={Link} href='/'>About</MenuItem>                       
+                                <MenuItem as={Link} href='/projects'>Projects</MenuItem>
+                                <MenuItem as={Link} href="/resume">Resume</MenuItem>
+                                <MenuItem as={Link} href="/contact">Contact</MenuItem> 
+                                <MenuItem as={Link} href="https://github.com/AlexanderChao14">
+                                    <Text pr={2}>
+                                        My Github 
+                                    </Text>
+                                    <BsGithub/>
+                                </MenuItem>      
+                                <MenuItem as={Link} href="https://linkedin.com/in/AlexanderChao14">
+                                    <Text pr={2}>
+                                        My Linkedin 
+                                    </Text>
+                                    <BsLinkedin/>    
+                                </MenuItem>              
                             </MenuList>
                         </Menu>
                     </Box>

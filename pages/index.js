@@ -15,7 +15,7 @@ const Index = () => {
         <Box display={{md:'flex'}}>
           <Box flexGrow={1}>
             <Heading as="h2" variant="page-title">Alexander Chao</Heading>
-            <p>Developer / Martial Artist / Video Game Enthusiast</p>
+            <p>Developer / Novice Traveller / Video Game Enthusiast</p>
           </Box>
           <Box flexShrink={0} mt={{base:4,md:0}} ml={{md:6}} algin="center">
             <Image 
@@ -52,7 +52,7 @@ const Index = () => {
             What I ❤ 
           </Heading>
           <ParagraphBlock>
-            Video Games, Martial Arts, Working Out, Fishing, Traveling, AI Art, TV Shows, DnD, Movies
+            Video Games, Board Games, Martial Arts, Working Out, Traveling, Fishing, TV Shows, DnD, Movies, Cooking, Creating my own AI Art
           </ParagraphBlock>
           <SimpleGrid columns={[2, 2, 2]} gap={6} pt={3} pr={3} pl={3} my={3}>
             

@@ -40,11 +40,9 @@ const Index = () => {
             {/* Some of the hobbies that I enjoy during my past time outside of software development are playing video games, learning martial arts, working outing at the gym, fishing and traveling the world.   */}
           </ParagraphBlock>
           <Box align="center" my={4}>
-            
-            <Button as={NextLink} href="/projects" scroll={false} rightIcon={<ChevronRightIcon/>} colorScheme='teal'>
+            <Button as={NextLink} href="/projects" rightIcon={<ChevronRightIcon/>} colorScheme='teal'>
               My projects
             </Button>
-            
           </Box>
         </Section>
         <Section delay={0.2}>

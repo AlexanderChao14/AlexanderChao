@@ -1,17 +1,19 @@
-import { Button, Container, Heading, Divider} from '@chakra-ui/react'
+import { Button, Container, Heading, Divider, Box} from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { HistoryDescription, HistorySubTitle, HistoryTitle, HistoryYear } from '../components/history'
-import { mode } from '@chakra-ui/theme-tools'
+import {DownloadIcon} from '@chakra-ui/icons'
 
 const Resume = () => (
 
     <Layout title="Resume">
         <Container>
             <Section delay={0.2}>
-                <Button align="center">
-                    Download My Resume
-                </Button>
+                <Box align="center">
+                    <Button colorScheme='teal' rightIcon={<DownloadIcon/>}>
+                        Download Resume 
+                    </Button>
+                </Box>
                 
                 <Heading as="h3" variant="section-title">
                     Education

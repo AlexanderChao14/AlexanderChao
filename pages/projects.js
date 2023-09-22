@@ -1,4 +1,4 @@
-import { Container, Heading , SimpleGrid, Divider } from "@chakra-ui/react";
+import { Container, Heading , SimpleGrid} from "@chakra-ui/react";
 import Section from '../components/section'
 import { ProjectsGridItem } from "../components/grid_item";
 import Layout from "../components/layouts/article";
@@ -7,7 +7,7 @@ import test from '../public/images/projects/test_image.png';
 import test2 from '../public/images/projects/test_image2.png';
 
 const Projects = () => (
-        <Layout title="Projects">
+    <Layout title="Projects">
         <Container>
             <Heading as="h3" fontSize={20} mb={4}>
                 Projects
@@ -26,7 +26,7 @@ const Projects = () => (
                 </Section>
             </SimpleGrid>
         </Container>
-        </Layout>
+    </Layout>
         
 )
 

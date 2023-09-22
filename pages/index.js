@@ -52,23 +52,20 @@ const Index = () => {
             What I ❤ 
           </Heading>
           <ParagraphBlock>
-            Video Games, Board Games, Martial Arts, Working Out, Traveling, Fishing, TV Shows, DnD, Movies, Cooking, Creating my own AI Art
+            Video Games, Board Games, Martial Arts, Working Out, Traveling, Fishing, TV Shows, DnD, Movies, Cooking, Creating My Own AI Art
           </ParagraphBlock>
           <SimpleGrid columns={[2, 2, 2]} gap={6} pt={3} pr={3} pl={3} my={3}>
-            
-              <Box align='center' >
-                <Image src="images/home/JapanTripOnePiece.jpg" alt="Japan Pic 1" placeholder='blur' loading='lazy' borderRadius="3xl"/>
-              </Box>
-            
-              <Box  align='center'>
-                <Image src="images/home/JapanTripGate.jpg" alt="Japan Pic 2" placeholder='blur' loading='lazy' borderRadius="3xl"/>
-              </Box>
-            
+            <Box align='center' >
+              <Image src="images/home/JapanTripOnePiece.jpg" alt="Japan Pic 1" placeholder='blur' loading='lazy' borderRadius="3xl"/>
+            </Box>
+            <Box  align='center'>
+              <Image src="images/home/JapanTripGate.jpg" alt="Japan Pic 2" placeholder='blur' loading='lazy' borderRadius="3xl"/>
+            </Box>
           </SimpleGrid>
         </Section>
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
-            Places I Have Traveled To
+            Places I Have Travelled To
           </Heading>
         </Section>
       </Container>

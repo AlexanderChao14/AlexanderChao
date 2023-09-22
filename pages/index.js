@@ -39,12 +39,12 @@ const Index = () => {
             Back-end development and machince learning are just a few area of interests that I am open to explore. {/*Might take out this line or 3rd sentence  */}
             {/* Some of the hobbies that I enjoy during my past time outside of software development are playing video games, learning martial arts, working outing at the gym, fishing and traveling the world.   */}
           </ParagraphBlock>
-          <Box algin="center" my="4">
-            <NextLink href="/projects">
-            <Button rightIcon={<ChevronRightIcon/>} colorScheme='teal'>
+          <Box align="center" my={4}>
+            
+            <Button as={NextLink} href="/projects" scroll={false} rightIcon={<ChevronRightIcon/>} colorScheme='teal'>
               My projects
             </Button>
-            </NextLink>
+            
           </Box>
         </Section>
         <Section delay={0.2}>

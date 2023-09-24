@@ -1,8 +1,9 @@
-import { Button, Container, Heading, Divider, Box} from '@chakra-ui/react'
+import { Button, Container, Heading, Divider, Box, VStack} from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { HistoryDescription, HistorySubTitle, HistoryTitle, HistoryYear } from '../components/history'
 import {DownloadIcon} from '@chakra-ui/icons'
+import { SkillsBar } from '../components/skills_bar'
 
 const Resume = () => (
 
@@ -30,7 +31,7 @@ const Resume = () => (
             </Section>
             <Section delay={0.3}>
                 <Heading as="h3" variant="section-title">
-                    Work History
+                    Work History 
                 </Heading>
                 <HistoryTitle>
                     Nutrien
@@ -47,6 +48,16 @@ const Resume = () => (
                 <Heading as="h3" variant="section-title">
                     Skills
                 </Heading>
+                <HistorySubTitle align="center">Some of the technologies that I am proficient with</HistorySubTitle>
+                <VStack align="stretch">
+                    
+                    <SkillsBar progess={87} childern={"JavaScript"}/>
+                    <SkillsBar progess={95} childern={"HTML & CSS"}/>
+                    <SkillsBar progess={75} childern={"ReactJs"}/>
+                    <SkillsBar progess={77} childern={"NextJs"}/>
+                    <SkillsBar progess={77} childern={"Git"}/>
+                    
+                </VStack>
                 <Divider my={6}/>
             </Section>
         </Container>

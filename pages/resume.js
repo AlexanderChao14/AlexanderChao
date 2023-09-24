@@ -23,7 +23,7 @@ const Resume = () => (
                     University of Calgary
                     <HistoryYear>2017 - 2023</HistoryYear>
                 </HistoryTitle>
-                <HistorySubTitle fontStyle="italic" fontWeight="medium">Bachelor of Science</HistorySubTitle>
+                <HistorySubTitle fontWeight="medium">Bachelor of Science</HistorySubTitle>
                 <HistoryDescription>
                     Major in Computer Science.
                 </HistoryDescription>
@@ -37,7 +37,7 @@ const Resume = () => (
                     Nutrien
                     <HistoryYear>2022</HistoryYear>
                 </HistoryTitle>
-                <HistorySubTitle fontStyle="italic" fontWeight="medium">Co-op, IT Digital Delivery</HistorySubTitle>
+                <HistorySubTitle fontWeight="medium">Co-op, IT Digital Delivery</HistorySubTitle>
                 <HistoryDescription>
                     Responsible for using tools such as React.js, TypeScript, npm, and Google Analytics to complete tickets for a large-scale application related to Front-End enchancements and Google Analytics tagging. 
                     Also responsible for implementing a SharePoint site application that record usage for large scale applications to allow Product Owners and Directors to use the usage metric for business meetings.
@@ -48,7 +48,7 @@ const Resume = () => (
                 <Heading as="h3" variant="section-title">
                     Skills
                 </Heading>
-                <HistorySubTitle align="center">Some of the technologies that I am proficient with</HistorySubTitle>
+                <HistorySubTitle align="center" fontWeight="medium">Some of the technologies that I am proficient with</HistorySubTitle>
                 <VStack align="stretch">
                     
                     <SkillsBar progess={87} childern={"JavaScript"}/>

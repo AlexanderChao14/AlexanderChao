@@ -16,6 +16,7 @@ export const HistorySubTitle = styled(Box)`
   padding-right: 3.4em;
   font-size: 14pt;
   color: gray;
+  font-style: italic;
 `
 
 export const HistoryYear = styled.span`

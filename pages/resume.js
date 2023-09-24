@@ -50,13 +50,16 @@ const Resume = () => (
                 </Heading>
                 <HistorySubTitle align="center" fontWeight="medium">Some of the technologies that I am proficient with</HistorySubTitle>
                 <VStack align="stretch">
-                    
                     <SkillsBar progess={87} childern={"JavaScript"}/>
-                    <SkillsBar progess={95} childern={"HTML & CSS"}/>
-                    <SkillsBar progess={75} childern={"ReactJs"}/>
-                    <SkillsBar progess={77} childern={"NextJs"}/>
-                    <SkillsBar progess={77} childern={"Git"}/>
-                    
+                    <SkillsBar progess={93} childern={"HTML5 & CSS"}/>
+                    <SkillsBar progess={75} childern={"ReactJs & NextJs"}/>
+                    <SkillsBar progess={55} childern={"C & C++"}/>
+                    <SkillsBar progess={80} childern={"Git"}/>
+                    <SkillsBar progess={59} childern={"TypeScript"}/>
+                    <SkillsBar progess={63} childern={"C#"}/>
+                    <SkillsBar progess={75} childern={"Python"}/>
+                    <SkillsBar progess={82} childern={"Google Analytics"}/>
+                    <SkillsBar progess={75} childern={"PowerBi"}/>
                 </VStack>
                 <Divider my={6}/>
             </Section>

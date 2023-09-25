@@ -1,4 +1,4 @@
-import { Button, Container, Heading, Divider, Box, VStack} from '@chakra-ui/react'
+import { Button, Container, Heading, Divider, Box, VStack, Link} from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { HistoryDescription, HistorySubTitle, HistoryTitle, HistoryYear } from '../components/history'
@@ -11,9 +11,11 @@ const Resume = () => (
         <Container>
             <Section delay={0.2}>
                 <Box align="center">
-                    <Button colorScheme='teal' rightIcon={<DownloadIcon/>}>
-                        Download Resume 
-                    </Button>
+                        <Link download="Alexander Chao - Resume.pdf" href="/Alexander Chao - Resume.pdf">
+                            <Button colorScheme='teal' rightIcon={<DownloadIcon/>}>
+                                Download Resume 
+                            </Button>
+                        </Link>
                 </Box>
                 
                 <Heading as="h3" variant="section-title">

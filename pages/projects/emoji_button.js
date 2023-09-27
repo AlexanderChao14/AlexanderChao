@@ -9,11 +9,14 @@ const Project = () => {
         <Layout title="Test Project">
             <Container>
                 <Title childern="Test Project">
-                    Test Project
-                    <Badge>2023</Badge>
+                    The Emoji Button
+                    <Badge>2021</Badge>
                 </Title>
                 <ParagraphBlock>
-                    A test project detail page 
+                    An application with just one button that tests your cognitive memory skills using emojis. 
+                    The user will need to memorize the emojis that will appear on the screen. 
+                    Afterwards, they will be questioned on how many times a certain emoji appeared in the memorization segment. 
+                    They will then enter their answer by clicking the button to increment it to the desired number.
                 </ParagraphBlock>
                 <List ml={4} my={4}></List>
             </Container>

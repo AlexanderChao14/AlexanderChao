@@ -65,6 +65,7 @@ const Index = () => {
           <Heading as="h3" variant="section-title">
             Places I Have Travelled To
           </Heading>
+          <Image src="images/home/Travel Map.png" alt="Travel Map" placeholder='blur' loading='lazy' borderRadius="3xl" pt={3}/>
         </Section>
       </Container>
     </Layout>

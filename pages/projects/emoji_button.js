@@ -20,7 +20,7 @@ const Project = () => {
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Website</Meta>
-                        <Link href="https://the-emoji-memory-game.netlify.app/"> https://the-emoji-memory-game.netlify.app/<ExternalLinkIcon mx="2px"/></Link>
+                        <Link href="https://the-emoji-memory-game.netlify.app/"> https://www.the-emoji-memory-game.netlify.app/<ExternalLinkIcon mx="2px"/></Link>
                     </ListItem>
                     <ListItem>
                         <Meta>Stack</Meta>

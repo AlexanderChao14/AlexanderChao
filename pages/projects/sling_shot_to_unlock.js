@@ -1,4 +1,4 @@
-import {Container, Badge, Link, List, ListItem} from '@chakra-ui/react'
+import {Container, Badge, Link, List, ListItem, AspectRatio} from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, ProjectImage, Meta } from '../../components/project_description'
 import ParagraphBlock from '../../components/paragraph_block'
@@ -6,16 +6,30 @@ import Layout from '../../components/layouts/article'
 
 const Project = () => {
     return( 
-        <Layout title="Test Project">
+        <Layout title="Sling Shot To Unlock">
             <Container>
-                <Title childern="Test Project">
+                <Title>
                     Sling Shot To Unlock
                     <Badge>2021</Badge>
                 </Title>
                 <ParagraphBlock>
                     A test project detail page 
                 </ParagraphBlock>
-                <List ml={4} my={4}></List>
+                <List ml={4} my={4}>
+                    <ListItem>
+                        <Meta>Website</Meta>
+                        <Link href="https://slingshotpigs.netlify.app"> https://wwww.slingshotpigs.netlify.app<ExternalLinkIcon mx="2px"/></Link>
+                    </ListItem>
+                    <ListItem>
+                        <Meta>Stack</Meta>
+                        <span> React.js, JavaScript, HTML5, CSS</span>
+                    </ListItem>
+                </List>
+                <ProjectImage alt="Sling Shot To Unlock" src="/images/projects/SlingShotToUnlock1.JPG"/>
+                <ProjectImage alt="Sling Shot To Unlock" src="/images/projects/SlingShotToUnlock2.JPG"/>
+                <AspectRatio maxW="100%" ratio={1.75} my={4}>
+                    <iframe src="https://www.youtube.com/embed/xXsopoUNjSE" title="YouTube video player" allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowFullScreen/>
+                </AspectRatio>
             </Container>
         </Layout>
     )

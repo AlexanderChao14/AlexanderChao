@@ -13,7 +13,7 @@ const Project = () => {
                     <Badge>2021</Badge>
                 </Title>
                 <ParagraphBlock>
-                    A test project detail page 
+                    An alternative approach to unlocking a phone involves using a slingshot to shoot at four pigs on the screen. Once the user enters the correct sequence of pigs by hitting them with the sling shot, the phone will then unlock.  
                 </ParagraphBlock>
                 <List ml={4} my={4}>
                     <ListItem>

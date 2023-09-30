@@ -9,8 +9,7 @@ const Project = () => {
         <Layout title="Sling Shot To Unlock">
             <Container>
                 <Title>
-                    Sling Shot To Unlock
-                    <Badge>2021</Badge>
+                    Sling Shot To Unlock <Badge>2021</Badge>
                 </Title>
                 <ParagraphBlock>
                     An alternative approach to unlocking a phone involves using a slingshot to shoot at four pigs on the screen. Once the user enters the correct sequence of pigs by hitting them with the sling shot, the phone will then unlock.  

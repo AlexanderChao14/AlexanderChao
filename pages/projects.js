@@ -6,6 +6,7 @@ import Layout from "../components/layouts/article";
 import EmojiThumbnail from '../public/images/projects/EmojiButtonThumbnail.png';
 import SlingShotToUnlockThumbnail from '../public/images/projects/SlingShotToUnlockThumbnail.png';
 import MazeToUnlockThumbnail from '../public/images/projects/MazeToUnlockThumbnail.jpg';
+import IntelligentOperationsTriggerThumbnail from '../public/images/projects/IntelligentOperationsTriggerThumbnail.jpg';
 
 const Projects = () => (
     <Layout title="Projects">
@@ -28,6 +29,11 @@ const Projects = () => (
                 <Section>
                     <ProjectsGridItem id="maze_to_unlock" title="Maze To Unlock" thumbnail={MazeToUnlockThumbnail} childern="An alternative approach to unlocking a phone involves using machine learning and facial recognition to navigate a character through a maze to unlock a phone.">
                         Maze To Unlock
+                    </ProjectsGridItem>
+                </Section>
+                <Section>
+                    <ProjectsGridItem id="intelligent_operations_trigger" title="Intelligent Operations Trigger" thumbnail={IntelligentOperationsTriggerThumbnail} childern="A physical device to help solve the everyday problem ">
+                        Intelligent Operations Trigger
                     </ProjectsGridItem>
                 </Section>
             </SimpleGrid>

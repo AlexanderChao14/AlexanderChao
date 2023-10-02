@@ -7,6 +7,7 @@ import EmojiThumbnail from '../public/images/projects/EmojiButtonThumbnail.png';
 import SlingShotToUnlockThumbnail from '../public/images/projects/SlingShotToUnlockThumbnail.png';
 import MazeToUnlockThumbnail from '../public/images/projects/MazeToUnlockThumbnail.jpg';
 import IntelligentOperationsTriggerThumbnail from '../public/images/projects/IntelligentOperationsTriggerThumbnail.jpg';
+import OurSpace from '../public/images/projects/OurSpaceThumbnail.jpg';
 
 const Projects = () => (
     <Layout title="Projects">
@@ -32,8 +33,13 @@ const Projects = () => (
                     </ProjectsGridItem>
                 </Section>
                 <Section>
-                    <ProjectsGridItem id="intelligent_operations_trigger" title="Intelligent Operations Trigger" thumbnail={IntelligentOperationsTriggerThumbnail} childern="A physical device to help solve the everyday problem ">
+                    <ProjectsGridItem id="intelligent_operations_trigger" title="Intelligent Operations Trigger" thumbnail={IntelligentOperationsTriggerThumbnail} childern="A physical device designed to address the common everyday issue of pressing a button remotely, thereby saving time.">
                         Intelligent Operations Trigger
+                    </ProjectsGridItem>
+                </Section>
+                <Section>
+                    <ProjectsGridItem id="ourspace" title="OurSpace" thumbnail={OurSpace} childern="An online web applicaiton to help simulate online learning and better enhance talking to other in a room but online.">
+                        OurSpace
                     </ProjectsGridItem>
                 </Section>
             </SimpleGrid>

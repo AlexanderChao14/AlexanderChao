@@ -12,7 +12,8 @@ const Project = () => {
                    OurSpace <Badge>2021</Badge>
                 </Title>
                 <ParagraphBlock>
-                    An online web applicaiton to help simulate online learning and better enhance talking to other in a room but online. You would recieve 
+                    An online web applicaiton to help simulate online learning and better enhance talking to other in a room but online. You would receive chat messages only from people who are within your speaking range, simulating a real room setting.
+                    You can increase or decrease the speaking range to your desired size and move your character anywhere in the room to speak to anyone you want, simulating in-person conversations within a room.
                 </ParagraphBlock>
                 <List ml={4} my={4}>
                     <ListItem>

@@ -49,7 +49,7 @@ const Index = () => {
             What I ❤ 
           </Heading>
           <ParagraphBlock>
-            Video Games, Board Games, Martial Arts, Working Out, Traveling, Fishing, TV Shows, DnD, Movies, Cooking, Creating My Own AI Art
+            Video Games, Board Games, Martial Arts, Working Out, Traveling, Fishing, TV Shows, DnD, Movies, Cooking
           </ParagraphBlock>
           <SimpleGrid columns={[2, 2, 2]} gap={6} pt={3} pr={3} pl={3} my={3}>
             <Box align='center' >

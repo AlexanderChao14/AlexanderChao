@@ -29,8 +29,8 @@ const Project = () => {
                         <Link href="https://github.com/AlexanderChao14/MazeUnlock" target='_blank'> Maze To Unlock Github Source<ExternalLinkIcon mx="2px"/></Link>
                     </ListItem>
                 </List>
-                <ProjectImage alt="Sling Shot To Unlock" src="/images/projects/MazeToUnlock1.JPG"/>
-                <ProjectImage alt="Sling Shot To Unlock" src="/images/projects/MazeToUnlock2.JPG"/>
+                <ProjectImage alt="Sling Shot To Unlock" src="/images/projects/MazeToUnlock1.jpg"/>
+                <ProjectImage alt="Sling Shot To Unlock" src="/images/projects/MazeToUnlock2.jpg"/>
                 <AspectRatio maxW="100%" ratio={1.75} my={4}>
                     <iframe src="https://www.youtube.com/embed/qUHDNjmUHnA" title="YouTube video player" allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowFullScreen/>
                 </AspectRatio>

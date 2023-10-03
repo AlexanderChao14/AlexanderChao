@@ -32,7 +32,7 @@ const Project = () => {
                     </ListItem>
                 </List>
                 <ProjectImage alt="The Emoji Button" src="/images/projects/EmojiButton1.png"/>
-                <ProjectImage alt="The Emoji Button" src="/images/projects/EmojiButton2.jpg"/>
+                <ProjectImage alt="The Emoji Button" src="/images/projects/EmojiButton2.JPG"/>
                 <AspectRatio maxW="100%" ratio={1.75} my={4}>
                     <iframe src="https://www.youtube.com/embed/H2CArrkxUno" title="YouTube video player" allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowFullScreen/>
                 </AspectRatio>

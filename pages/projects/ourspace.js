@@ -24,6 +24,10 @@ const Project = () => {
                         <Meta>Stack</Meta>
                         <span> React.js, JavaScript, HTML5, CSS</span>
                     </ListItem>
+                    <ListItem>
+                        <Meta>Github</Meta>
+                        <Link href="https://github.com/BryanHuynh/Proximity-Chat" target='_blank'> OurSpace Github Source<ExternalLinkIcon mx="2px"/></Link>
+                    </ListItem>
                 </List>
                 <ProjectImage alt="OurSpace" src="/images/projects/OurSpace1.jpg"/>
                 <ProjectImage alt="OurSpace" src="/images/projects/OurSpace2.jpg"/>

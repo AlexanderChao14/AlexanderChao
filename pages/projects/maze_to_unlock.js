@@ -24,6 +24,10 @@ const Project = () => {
                         <Meta>Stack</Meta>
                         <span> Teachable Machine, JavaScript, HTML5, CSS, Python</span>
                     </ListItem>
+                    <ListItem>
+                        <Meta>Github</Meta>
+                        <Link href="https://github.com/AlexanderChao14/MazeUnlock" target='_blank'> Maze To Unlock Github Source<ExternalLinkIcon mx="2px"/></Link>
+                    </ListItem>
                 </List>
                 <ProjectImage alt="Sling Shot To Unlock" src="/images/projects/MazeToUnlock1.JPG"/>
                 <ProjectImage alt="Sling Shot To Unlock" src="/images/projects/MazeToUnlock2.JPG"/>

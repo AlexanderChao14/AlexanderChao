@@ -26,6 +26,10 @@ const Project = () => {
                         <Meta>Stack</Meta>
                         <span>JavaScript, HTML5, CSS</span>
                     </ListItem>
+                    <ListItem>
+                        <Meta>Github</Meta>
+                        <Link href="https://github.com/BryanHuynh/Memory-Test-JS" target='_blank'> The Emoji Button Github Source<ExternalLinkIcon mx="2px"/></Link>
+                    </ListItem>
                 </List>
                 <ProjectImage alt="The Emoji Button" src="/images/projects/EmojiButton1.png"/>
                 <ProjectImage alt="The Emoji Button" src="/images/projects/EmojiButton2.jpg"/>

@@ -23,6 +23,10 @@ const Project = () => {
                         <Meta>Stack</Meta>
                         <span> React.js, JavaScript, HTML5, CSS</span>
                     </ListItem>
+                    <ListItem>
+                        <Meta>Github</Meta>
+                        <Link href="https://github.com/BryanHuynh/SlingShotToUnlock" target='_blank'> Sling Shot To Unlock Github Source<ExternalLinkIcon mx="2px"/></Link>
+                    </ListItem>
                 </List>
                 <ProjectImage alt="Sling Shot To Unlock" src="/images/projects/SlingShotToUnlock1.JPG"/>
                 <ProjectImage alt="Sling Shot To Unlock" src="/images/projects/SlingShotToUnlock2.JPG"/>

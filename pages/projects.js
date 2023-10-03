@@ -19,7 +19,6 @@ const Projects = () => (
                 <Section>
                     <ProjectsGridItem id="emoji_button" title="The Emoji Button" thumbnail={EmojiThumbnail} childern="An application with just one button that tests your cognitive memory skills using emojis.">
                         The Emoji Button
-                        {/* TODO: need to figure out text and childern problem, Test is not showing while Test3 is*/}
                     </ProjectsGridItem>
                 </Section>
                 <Section>

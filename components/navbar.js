@@ -53,7 +53,7 @@ const Navbar = props => {
                 </Flex>
 
                 <Stack direction={{base: 'column', md: 'row'}} display={{base: 'none', md:'flex'}} width={{base:'full', md: 'auto'}} alignItems="center" flexGrow={1} mt={{base: 4, md: 0}} >
-                    <LinkItem href="/projects" path={path} childern="Projects" >Projects</LinkItem> {/*TODO: Might need to change/ remove the childern part */}
+                    <LinkItem href="/projects" path={path} childern="Projects" >Projects</LinkItem> 
                     <LinkItem href="/resume" path={path} childern="Resume">Resume</LinkItem>
                     <LinkItem href="/contact" path={path} childern="Contact">Contact</LinkItem>
                     <LinkItem href="https://github.com/AlexanderChao14" path={path}  display="inline-flex" alignItems="center" childern={<BsGithub/>}s>

@@ -25,9 +25,9 @@ const Project = () => {
                         <span> C++, INO, Blynk.Cloud</span>
                     </ListItem>
                 </List>
-                <Text align="center" fontSize="xx-large" fontWeight="bold" fontStyle="italic" my={4}>"A smart button for not-so-smart devices" - Intelligent Operations Trigger</Text>
+                <Text align="center" fontSize="xx-large" fontWeight="bold" fontStyle="italic" my={4}>&#34;A smart button for not-so-smart devices&#34; - Intelligent Operations Trigger</Text>
                 <Box mb={4}>
-                    <video autoPlay loop><source src="/images/projects/IntelligentOperationsTrigger1.mp4" type="video/mp4" /></video>
+                    <video autoPlay loop><source src="/images/projects/IntelligentOperationsTrigger1.mp4" type="video/mp4"/></video>
                 </Box>
                 <ProjectImage alt="Intelligent Operations Trigger" src="/images/projects/IntelligentOperationsTrigger2.jpg"/>
                 <AspectRatio maxW="100%" ratio={1.75} my={4}>

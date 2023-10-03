@@ -6,12 +6,16 @@
 .pnp.js
 node_modules
 node_modules/
+dist
+.vercel
+.env
 
 # testing
 /coverage
 
 # next.js
 /.next/
+.next
 /out/
 
 # production

@@ -36,7 +36,7 @@ const Index = () => {
           <ParagraphBlock>
             I&#39;m a Computer Science graduate from the University of Calgary. I enjoy working in front-end development and 
             web development, but I am open to working in new areas of Computer Science as I am eager to always learn new skills. 
-            Back-end development and machince learning are just a few area of interests that I am open to explore.
+            Back-end development and machine learning are just a few area of interests that I am open to explore.
           </ParagraphBlock>
           <Box align="center" my={4}>
             <Button as={NextLink} href="/projects" rightIcon={<ChevronRightIcon/>} colorScheme='teal'>

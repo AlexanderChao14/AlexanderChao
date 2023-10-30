@@ -41,7 +41,7 @@ const Resume = () => (
                 </HistoryTitle>
                 <HistorySubTitle fontWeight="medium">Co-op, IT Digital Delivery</HistorySubTitle>
                 <HistoryDescription>
-                    Responsible for using tools such as React.js, TypeScript, npm, and Google Analytics to complete tickets for a large-scale application related to Front-End enchancements and Google Analytics tagging. 
+                    Responsible for using tools such as React.js, TypeScript, npm, and Google Analytics to complete tickets for a large-scale application related to Front-End enhancements and Google Analytics tagging. 
                     Also responsible for implementing a SharePoint site application that record usage for large scale applications to allow Product Owners and Directors to use the usage metric for business meetings.
                 </HistoryDescription>
                 <Divider my={6}/>
